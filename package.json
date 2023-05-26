@@ -1,0 +1,13 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is first code of namste react app",
+  "main": "App.js",
+  "scripts": {
+    "repository": "git",
+    "url": "https://github.com/love0107/NamsteReactApp.git",
+    "test": "jest"
+  },
+  "author": "Lovlesh Baghel",
+  "license": "ISC"
+}
