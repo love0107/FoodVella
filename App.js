@@ -27,18 +27,22 @@ const Body=()=>{
     </div>
 }
 
-const Footer =()=>{
-    return 
-    <div>
-        footer
-    </div>
-}
+const Footer =()=>(
+<div>
+    footer
+</div>
+)
+
 const AppLayout =()=>{
-    return (
+   return(
      <>
-     <Header/>
+     <h1>hello there!</h1>
+     <HeaderComponent/>
      <Body/>
-     <Foooter/>
+     <Footer/>
      </>
-    );
+   );
 }
+const root= ReactDOM.createRoot(document.getElementById("root"));
+root.render(<AppLayout/>);
+
