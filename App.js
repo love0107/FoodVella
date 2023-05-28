@@ -1,4 +1,4 @@
-import React from "rect";
+import React from "react";
 import ReactDOM , {createRoot} from "react-dom/client";
 
 
@@ -20,7 +20,7 @@ const HeaderComponent =()=> {
         </>
     );
 
-}
+};
 const Body=()=>{
     return <div>
         Body
