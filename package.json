@@ -4,10 +4,15 @@
   "description": "this is first code of namste react app",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
     "repository": "git",
     "url": "https://github.com/love0107/NamsteReactApp.git",
     "test": "jest"
   },
   "author": "Lovlesh Baghel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
