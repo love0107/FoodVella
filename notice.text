@@ -3,3 +3,43 @@ do init npm
 
 // for installing the parcel 
 do  npm install -D parcel
+
+
+-------props -------
+<Tag {...props}/>   // seprate opetator
+
+------ hooks-------
+name import --- import {Title} from ./src/Title
+and in file its should be linke export condt ={}
+
+and defalut export we import without {}
+
+constatnt or config.js--> file contain your hard coded data
+
+* react usr one way data binding
+hooks are the function like useState
+to create state variable
+whis return a arry and one ement is a local state variable
+
+const [localstatevariable, function_for_change_localstatevariable]=useState("initital_value")
+
+e.target.value --> will give what ever you type in input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
