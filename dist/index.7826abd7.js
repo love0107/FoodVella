@@ -2947,21 +2947,144 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        id: "title",
-        children: "Food Vella"
-    }, "h2", false, {
+const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+        href: "/",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+            className: "title",
+            alt: "logo",
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQXqMt6WJ-f7Sn6FTCSUk18HbYK-mKhQ08g&usqp=CAU"
+        }, void 0, false, {
+            fileName: "App.js",
+            lineNumber: 8,
+            columnNumber: 1
+        }, undefined)
+    }, void 0, false, {
         fileName: "App.js",
         lineNumber: 7,
-        columnNumber: 1
+        columnNumber: 5
     }, undefined);
 _c = Title;
+const burgerKing = [
+    {
+        name: "Burger King",
+        url: "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/jo6mz8mgv0gblakn1fyh",
+        cusines: [
+            "Burger",
+            "American"
+        ],
+        rating: "4.1"
+    },
+    {
+        name: "Meghana Foods",
+        url: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/4df3497f1460dfd1ecd8125222f6d362",
+        cusines: [
+            "Biryani",
+            "Andhra",
+            "South Indian",
+            "North Indian",
+            "Chinese",
+            "Seafood"
+        ],
+        rating: "4.2"
+    },
+    {
+        name: "McDonald's",
+        url: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ee5f8e06b300efc07c9fe3f4df40dfc4",
+        cusines: [
+            "Burgers",
+            "Beverages",
+            "Cafe",
+            "Desserts"
+        ],
+        rating: "4.3"
+    },
+    {
+        name: "mummy ke momos",
+        url: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/gkaot0ksdaiavgibhrfh",
+        cusines: [
+            "Burger",
+            "American"
+        ],
+        rating: "4"
+    },
+    {
+        name: "Anity ji ki kitchen",
+        url: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/zwbdimjywqorkhanuoft",
+        cusines: [
+            "Burger",
+            "American"
+        ],
+        rating: "4.5"
+    },
+    {
+        name: "JAMA Food Corner",
+        url: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/t6t5kairwejurkhrcxmv",
+        cusines: [
+            "Burger",
+            "American"
+        ],
+        rating: "4.2"
+    },
+    {
+        name: "KFC",
+        url: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/56c9ab92bd79745fd152a30fa2525426",
+        cusines: [
+            "Burger",
+            "American"
+        ],
+        rating: "2.9"
+    }
+];
+const RestronatCard = (props)=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "card",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: props.url
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 59,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: props.name
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 60,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: props.cusines.join(", ")
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 61,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: [
+                    props.rating,
+                    " stars"
+                ]
+            }, void 0, true, {
+                fileName: "App.js",
+                lineNumber: 62,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 58,
+        columnNumber: 9
+    }, undefined);
+};
+_c1 = RestronatCard;
 const HeaderComponent = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 12,
+                lineNumber: 69,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -2972,87 +3095,113 @@ const HeaderComponent = ()=>{
                             children: "item1"
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 15,
+                            lineNumber: 72,
                             columnNumber: 17
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "item2"
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 16,
+                            lineNumber: 73,
                             columnNumber: 17
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "item3"
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 17,
+                            lineNumber: 74,
                             columnNumber: 17
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "App.js",
-                    lineNumber: 14,
+                    lineNumber: 71,
                     columnNumber: 13
                 }, undefined)
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 13,
+                lineNumber: 70,
                 columnNumber: 9
             }, undefined)
         ]
-    }, void 0, true);
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 68,
+        columnNumber: 9
+    }, undefined);
 };
-_c1 = HeaderComponent;
+_c2 = HeaderComponent;
 const Body = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: "Body"
+        className: "container-body",
+        children: burgerKing.map((items)=>/*#__PURE__*/ (0, _react.createElement)(RestronatCard, {
+                ...items,
+                key: items.name,
+                __source: {
+                    fileName: "App.js",
+                    lineNumber: 85,
+                    columnNumber: 1
+                },
+                __self: undefined
+            }))
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 25,
+        lineNumber: 82,
         columnNumber: 12
     }, undefined);
 };
-_c2 = Body;
-const Footer = ()=>{
-    return;
-};
-_c3 = Footer;
+_c3 = Body;
+const Footer = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "footer",
+        children: "footer"
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 92,
+        columnNumber: 1
+    }, undefined);
+_c4 = Footer;
 const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeaderComponent, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 39,
+                lineNumber: 99,
                 columnNumber: 6
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 40,
+                lineNumber: 100,
                 columnNumber: 6
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Foooter, {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 41,
+                lineNumber: 101,
                 columnNumber: 6
             }, undefined)
         ]
     }, void 0, true);
 };
-_c4 = AppLayout;
-var _c, _c1, _c2, _c3, _c4;
+_c5 = AppLayout;
+const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 106,
+    columnNumber: 13
+}, undefined));
+var _c, _c1, _c2, _c3, _c4, _c5;
 $RefreshReg$(_c, "Title");
-$RefreshReg$(_c1, "HeaderComponent");
-$RefreshReg$(_c2, "Body");
-$RefreshReg$(_c3, "Footer");
-$RefreshReg$(_c4, "AppLayout");
+$RefreshReg$(_c1, "RestronatCard");
+$RefreshReg$(_c2, "HeaderComponent");
+$RefreshReg$(_c3, "Body");
+$RefreshReg$(_c4, "Footer");
+$RefreshReg$(_c5, "AppLayout");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 

@@ -1,0 +1,45 @@
+.nav-items > ul {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  list-style: none;
+}
+
+body {
+  background-color: #faebd7;
+}
+
+.header {
+  height: 1rem;
+  border: 1px solid #000;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  display: flex;
+}
+
+.title {
+  width: auto;
+  height: 3rem;
+}
+
+.card {
+  width: 10rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.container-body {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
